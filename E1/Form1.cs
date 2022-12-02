@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace E1
@@ -97,7 +89,7 @@ namespace E1
             public int Memo
             {
                 get { return mem; }
-                set { mem = value; }   
+                set { mem = value; }
             }
 
             public GPU(double price, int year, T Art, double freq, string vendor, int mem) : base(price, year, Art)
