@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using E1;
 using E2;
+using E3;
 
 namespace uchebs
 {
@@ -30,6 +31,17 @@ namespace uchebs
         {
             Form form = new Form2();
             form.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form form = new Form3();
+            form.ShowDialog();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
