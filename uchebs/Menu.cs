@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using E1;
 using E2;
 using E3;
+using E4;
 
 namespace uchebs
 {
@@ -19,6 +20,11 @@ namespace uchebs
         public Menu()
         {
             InitializeComponent();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,16 +38,17 @@ namespace uchebs
             Form form = new Form2();
             form.ShowDialog();
         }
-
+ 
         private void button3_Click(object sender, EventArgs e)
         {
             Form form = new Form3();
             form.ShowDialog();
         }
 
-        private void Menu_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            Form form = new Form4();
+            form.ShowDialog();
         }
     }
 

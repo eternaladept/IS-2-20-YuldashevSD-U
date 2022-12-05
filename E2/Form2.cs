@@ -60,5 +60,10 @@ namespace E2
                 conn.Close();
             }
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

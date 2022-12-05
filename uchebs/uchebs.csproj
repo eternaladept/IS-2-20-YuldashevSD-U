@@ -92,6 +92,10 @@
       <Project>{9efa3fab-664f-4ba4-81ad-d9e071e501b6}</Project>
       <Name>E3</Name>
     </ProjectReference>
+    <ProjectReference Include="..\E4\E4.csproj">
+      <Project>{518af92d-fac5-4156-b41a-b1a3538642f4}</Project>
+      <Name>E4</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
