@@ -11,6 +11,7 @@ using E1;
 using E2;
 using E3;
 using E4;
+using E5;
 
 namespace uchebs
 {
@@ -50,6 +51,11 @@ namespace uchebs
             Form form = new Form4();
             form.ShowDialog();
         }
-    }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new Form5();
+            form.ShowDialog();
+        }
+    }
 }
