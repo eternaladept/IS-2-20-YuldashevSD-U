@@ -70,7 +70,8 @@ namespace E5
 
         private void Form5_Load(object sender, EventArgs e)
         {
-
+            conn = connecti.Connection();
+            GetTable();
         }
 
         private void button1_Click(object sender, EventArgs e)
